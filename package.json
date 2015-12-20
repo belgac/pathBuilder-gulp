@@ -1,0 +1,35 @@
+{
+  "name": "pathbuilder-gulp",
+  "description": "A small library to generate gulp paths from a json object",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/belgac/pathbuilder-gulp.git"
+  },
+  "author": "Hans Scheuren <hans.scheuren@bizliner.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/belgac/pathbuilder-gulp/issues"
+  },
+  "homepage": "https://github.com/belgac/pathbuilder-gulp#readme",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "cz-conventional-changelog": "^1.1.5",
+    "gulp": "^3.9.0",
+    "gulp-mocha": "^2.2.0",
+    "mocha": "^2.3.4",
+    "semantic-release": "^4.3.5"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "dependencies": {
+    "angular-expressions": "^0.3.0"
+  }
+}
